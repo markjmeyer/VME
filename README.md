@@ -32,7 +32,7 @@ VAIC(model)
 Requires the following R packages: [Matrix](https://cran.r-project.org/web/packages/Matrix/index.html), splines (should be included in standard R release), [MASS](https://cran.r-project.org/web/packages/MASS/index.html), and [numbers](https://cran.r-project.org/web/packages/numbers/index.html).
 
 ## Simulations folder
-This folder contains files that were used for the descrimination, bias, and MSE/MISE simulations described in [Meyer (2023)](https://arxiv.org/abs/2306.14761). The files sim_cycl_func.R, sim_peak_func.R, and sim_sigm_func.R run the random functions simulation while sim_risb.R runs the random intercept vs random slope simulation.
+This folder contains files that were used for the descrimination, bias, and MSE/MISE simulations described in [Meyer (2023)](https://arxiv.org/abs/2306.14761). The files sim_cycl_func.R, sim_peak_func.R, and sim_sigm_func.R run the random functions simulation while sim_risb.R runs the random intercept vs random slope simulation. To evaluate the results of the simulation and to replicate the tables in the manuscript, use the files functional_eval.R and insterslope_eval.R for the random function and random intercept vs random slope simulations, respectively.
 
 ## Illustrations folder
 This folder contains a script and dataset for the data illustrations described in [Meyer (2023)](https://arxiv.org/abs/2306.14761). The script is titled data_illustrations.R. Data for the random intercept vs random slope illustration is in the accompanying file leadlong.txt. Data for the random function illustration is available in the [refund](https://cran.r-project.org/web/packages/refund/index.html) R package.
